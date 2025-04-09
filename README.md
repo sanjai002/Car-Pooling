@@ -41,14 +41,21 @@ A full-stack Flask-based web application that connects drivers and passengers, e
 git clone https://github.com/sanjai002/Car-Pooling.git
 cd Car-Pooling
 ```
+
 ### 2. Install Flask
 
 ```bash
 pip install flask flask-session
 ```
 
-### 3. Run the Application
+### 3. Run Database Script
+
 ```bash
-Copy
-Edit
+python DBScript.py
+```
+
+### 4. Run the Application
+
+```bash
+python app.py
 ```
